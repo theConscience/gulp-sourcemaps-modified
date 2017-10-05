@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      "gulp-sourcemaps-modified@^1.5.2",
+      "c:\\Web_development\\My_node_modules\\refactored\\gulp-sourcemaps[refactored]"
+    ]
+  ],
+  "_from": "gulp-sourcemaps-modified@>=1.5.2 <2.0.0",
+  "_id": "gulp-sourcemaps-modified@1.6.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gulp-sourcemaps-modified",
+  "_nodeVersion": "4.1.1",
+  "_npmUser": {
+    "email": "vinton.mail@gmail.com",
+    "name": "conscience"
+  },
+  "_npmVersion": "3.3.4",
+  "_phantomChildren": {
+    "clone": "1.0.2",
+    "clone-stats": "0.0.1",
+    "replace-ext": "0.0.1"
+  },
+  "_requested": {
+    "name": "gulp-sourcemaps-modified",
+    "raw": "gulp-sourcemaps-modified@^1.5.2",
+    "rawSpec": "^1.5.2",
+    "scope": null,
+    "spec": ">=1.5.2 <2.0.0",
+    "type": "range"
+  },
+  "_resolved": "https://registry.npmjs.org/gulp-sourcemaps-modified/-/gulp-sourcemaps-modified-1.6.0.tgz",
+  "_shrinkwrap": null,
+  "_spec": "gulp-sourcemaps-modified@^1.5.2",
+  "_where": "c:\\Web_development\\My_node_modules\\refactored\\gulp-sourcemaps[refactored]",
+  "author": {
+    "email": "vinton.mail@gmail.com",
+    "name": "conscience"
+  },
+  "bugs": {
+    "url": "https://github.com/theconscience/gulp-sourcemaps-modified/issues"
+  },
+  "dependencies": {
+    "convert-source-map": "^1.1.1",
+    "graceful-fs": "^4.1.2",
+    "strip-bom": "^2.0.0",
+    "through2": "^2.0.0",
+    "vinyl": "^1.0.0"
+  },
+  "description": "Source map support for Gulp.js and Kata-framework",
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "faucet": "0.0.1",
+    "istanbul": "^0.3.21",
+    "jshint": "^2.8.0",
+    "tape": "^4.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "tarball": "https://registry.npmjs.org/gulp-sourcemaps-modified/-/gulp-sourcemaps-modified-1.6.0.tgz"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "homepage": "http://github.com/theconscience/gulp-sourcemaps-modified",
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "source maps",
+    "sourcemaps"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "vinton.mail@gmail.com",
+      "name": "conscience"
+    }
+  ],
+  "name": "gulp-sourcemaps-modified",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/theconscience/gulp-sourcemaps-modified.git"
+  },
+  "scripts": {
+    "cover": "istanbul cover --dir reports/coverage tape \"test/*.js\"",
+    "coveralls": "istanbul cover tape \"test/*.js\" --report lcovonly && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
+    "tap": "tape test/*.js",
+    "test": "jshint *.js test/*.js && faucet test/*.js"
+  },
+  "version": "1.6.0"
+}
